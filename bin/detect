@@ -3,6 +3,8 @@
 
 echo "#############"
 echo $1
+
+echo "$(find $1)"
 echo "#############"
 
 if [ -f $1/package.json ]; then
